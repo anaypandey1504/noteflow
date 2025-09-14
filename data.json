@@ -1,0 +1,72 @@
+{
+  "tenants": [
+    {
+      "id": 1,
+      "slug": "acme",
+      "name": "Acme Corp",
+      "subscription_plan": "free",
+      "created_at": "2025-09-14T08:45:20.160Z"
+    },
+    {
+      "id": 2,
+      "slug": "globex",
+      "name": "Globex Corp",
+      "subscription_plan": "free",
+      "created_at": "2025-09-14T08:45:20.160Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@acme.test",
+      "password_hash": "$2a$10$4sDjBqODGtMRJDQALa2Nn.nWQ27tDCh2m4DWJ71pfw2oFYQGN.962",
+      "role": "admin",
+      "tenant_id": 1,
+      "created_at": "2025-09-14T08:45:20.289Z"
+    },
+    {
+      "id": 2,
+      "email": "user@acme.test",
+      "password_hash": "$2a$10$4sDjBqODGtMRJDQALa2Nn.nWQ27tDCh2m4DWJ71pfw2oFYQGN.962",
+      "role": "member",
+      "tenant_id": 1,
+      "created_at": "2025-09-14T08:45:20.289Z"
+    },
+    {
+      "id": 3,
+      "email": "admin@globex.test",
+      "password_hash": "$2a$10$4sDjBqODGtMRJDQALa2Nn.nWQ27tDCh2m4DWJ71pfw2oFYQGN.962",
+      "role": "admin",
+      "tenant_id": 2,
+      "created_at": "2025-09-14T08:45:20.289Z"
+    },
+    {
+      "id": 4,
+      "email": "user@globex.test",
+      "password_hash": "$2a$10$4sDjBqODGtMRJDQALa2Nn.nWQ27tDCh2m4DWJ71pfw2oFYQGN.962",
+      "role": "member",
+      "tenant_id": 2,
+      "created_at": "2025-09-14T08:45:20.289Z"
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6,
+      "email": "newuser@acme.test",
+      "password_hash": "$2a$10$0xCx0fI3eTvXtYw8ZqwtV.CXMzN3CBAZgF0ygi6hzU1tKMsFxMAYK",
+      "role": "member",
+      "tenant_id": 1,
+      "created_at": "2025-09-14T08:59:35.567Z"
+    },
+    {
+      "id": 7,
+      "email": "testuser@acme.test",
+      "password_hash": "$2a$10$szXZxvKqjppa/Lect4A67u95CwFonW3T6C2s/j1Qoo9kknO5ByFpe",
+      "role": "member",
+      "tenant_id": 1,
+      "created_at": "2025-09-14T09:00:06.110Z"
+    }
+  ],
+  "notes": []
+}
